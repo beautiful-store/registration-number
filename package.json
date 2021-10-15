@@ -1,5 +1,5 @@
 {
-  "name": "money",
+  "name": "@beautifulstore/money",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "SeulHam",
@@ -8,6 +8,12 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "private": false,
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "engines": {
     "node": ">=10"
   },
@@ -21,7 +27,8 @@
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "publish:npm": "rm -rf dist && mkdir dist && babel src/lib -d dist --copy-files"
   },
   "peerDependencies": {
     "react": "^16.0.0"
