@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'money'
-import 'money/dist/index.css'
+import { Money } from 'money'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Money amount={10000000} currency='₩' currencyPosition="left" />
 }
 
 export default App
