@@ -24,6 +24,6 @@ npm install @beautifulstore/money
 ## Props
 |Name|Default|Description|
 |------|:---:|---|
-|amount|null|보여주려는 금액|
+|amount <a href="#" title="required">*</a>|null|보여주려는 금액|
 |currency|'원'|화폐 단위 ( '원' or '₩' ) |
 |currencyPosition|'right'|단위 표시 위치 ( 'left' or 'right' )|
