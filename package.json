@@ -1,7 +1,7 @@
 {
   "name": "@beautifulstore/registration-number",
-  "version": "1.0.2",
-  "description": "Made with create-react-library",
+  "version": "1.0.3",
+  "description": "function for check egistration number/ Made with create-react-library",
   "author": "YoonjongPark",
   "license": "MIT",
   "repository": "beautiful-store/registration-number",
