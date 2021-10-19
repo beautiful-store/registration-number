@@ -23,3 +23,10 @@ yarn-error.log*
 .idea
 yarn.lock
 package-lock.json
+
+#others
+src
+demo
+.babelrc
+webpack.config.js
+public

@@ -1,4 +1,5 @@
 import { RegistrationNumber } from '.'
+import '@testing-library/jest-dom/extend-expect'
 
 describe('주민번호체크', () => {
   it('주민등록번호 테스트', () => {
