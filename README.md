@@ -7,7 +7,7 @@
 ## Examples
 
 ```ts
-import { RegistrationNumber } from '.'
+import { RegistrationNumber } from '@beautifulstore/registration-number'
 
 // RegistrationNumber (idNumber:String, type:String)
 
