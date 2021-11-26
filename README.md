@@ -8,7 +8,7 @@
 ## Examples
 
 ```ts
-import RegistrationNumber from '@beautifulstore/registration-number'
+import RegistrationValidator from '@beautifulstore/registration-number'
 
 const IdValidator = new RegistrationValidator()
 // RegistrationNumber (idNumber:String)
