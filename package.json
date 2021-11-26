@@ -1,15 +1,18 @@
 {
   "name": "@beautifulstore/registration-number",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "class for check egistration number/ Made with create-react-library",
   "author": "Yoonjong.Park",
   "license": "MIT",
   "main": "dist/index.js",
-  "repository": "beautiful-store/registration-number",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beautiful-store/registration-number.git"
+  },
   "private": false,
   "babel": {
     "presets": [
-      "@babel/preset-react"
+      "@babel/preset-typescript"
     ]
   },
   "scripts": {
@@ -17,12 +20,13 @@
     "build": "rm -rf ./dist && tsc",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish:npm": "rm -rf dist && mkdir dist && babel src/lib -d dist --copy-files"
+    "publish:npm": "rm -rf dist && mkdir dist && babel src --out-dir dist --copy-files"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.16.0",
     "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.16.0",
     "@types/jest": "^27.0.2",
     "@types/react": "^17.0.30",
     "@types/react-dom": "^17.0.9",
@@ -48,5 +52,12 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/beautiful-store/registration-number/issues"
+  },
+  "homepage": "https://github.com/beautiful-store/registration-number#readme",
+  "directories": {
+    "example": "example"
+  }
 }
