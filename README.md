@@ -11,7 +11,6 @@
 import RegistrationValidator from '@beautifulstore/registration-number'
 
 const IdValidator = new RegistrationValidator()
-// RegistrationNumber (idNumber:String)
 
 // result === true
 const result = IdValidator.validateNative('6407131018433')
